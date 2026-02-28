@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:datacruiser.ai)",
+      "WebFetch(domain:www.palantir.com)",
+      "Bash(textutil -convert txt:*)",
+      "Bash(npm create vite@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(curl:*)",
+      "Bash(npm run build:*)",
+      "Bash(pkill:*)",
+      "Bash(lsof:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}
