@@ -4,7 +4,7 @@ import GlobeExperimentPage from './GlobeExperimentPage'
 
 function AppWithRouting() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Datacruiser">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/globe-experiment" element={<GlobeExperimentPage />} />
