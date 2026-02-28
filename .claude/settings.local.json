@@ -10,7 +10,9 @@
       "Bash(npm run build:*)",
       "Bash(pkill:*)",
       "Bash(lsof:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(git commit:*)",
+      "Bash(git add:*)"
     ]
   }
 }
