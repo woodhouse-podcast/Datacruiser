@@ -12,7 +12,8 @@
       "Bash(lsof:*)",
       "Bash(ls:*)",
       "Bash(git commit:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git remote add:*)"
     ]
   }
 }

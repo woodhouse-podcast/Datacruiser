@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/datacruiser-website/', // Replace with your GitHub repo name
+  base: '/Datacruiser/', // GitHub repo name
 })
