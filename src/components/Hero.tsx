@@ -11,13 +11,17 @@ const Hero = () => {
         <div className="max-w-5xl mx-auto text-center">
           {/* Main headline */}
           <motion.h1
-            className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-br from-white via-gray-100 to-gray-300 bg-clip-text text-transparent"
+            className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Understand Your World{' '}
-            <span className="gradient-text">Through Time</span>
+            <span className="bg-gradient-to-br from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
+              Understand Your World{' '}
+            </span>
+            <span className="bg-gradient-to-br from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
+              Through Time
+            </span>
           </motion.h1>
 
           {/* Subheadline */}
