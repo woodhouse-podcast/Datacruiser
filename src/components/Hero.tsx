@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="max-w-5xl mx-auto text-center">
           {/* Main headline */}
           <motion.h1
-            className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-text-light"
+            className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-br from-white via-gray-100 to-gray-300 bg-clip-text text-transparent"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -69,17 +69,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <motion.div
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1 }}
-      >
-        <div className="w-6 h-10 border-2 border-text-muted rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-text-muted rounded-full mt-2 animate-bounce"></div>
-        </div>
-      </motion.div>
     </section>
   )
 }
